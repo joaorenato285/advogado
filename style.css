@@ -332,13 +332,11 @@ a:hover {
   footer .main {
     width: 100%;    
     background: #C9AD82;
-    padding: 2rem 1rem;
+    padding: 1rem;
   }
   
   .footer-links {
-      margin-left: 5rem;
-    max-width: 100rem;
-    min-width: 30rem;
+      margin-left: 5rem;    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -437,7 +435,8 @@ a:hover {
   }
 .h1HL{margin: auto;
     text-align: center;}
-.pHL{font-size: 1.7rem;
+.pHL{width: 90%;
+  font-size: 1.7rem;
     margin: auto;
     text-align: center;}
 .pHLd{font-size: 1.7rem;
@@ -445,15 +444,24 @@ a:hover {
 }
 .att{width: 60%;
     margin: auto;
+    margin-top: 2rem;
+}
+.h2Areas{
+  width: 90%;
 }
 .gridAreas{
     grid-template-columns: 11rem 11rem 11rem;
     grid-gap: 1rem;
     padding-bottom: 0;
 }
-.gridAreas h3{
+.gridAreas h3{padding-top: 1rem;
     font-size: 1.5rem;
 }
+.Areas i{
+  font-size: 4rem;
+ 
+}
+
 h2{text-align: center;
     margin: auto;
     margin-top: 8rem;
@@ -469,7 +477,8 @@ h2{text-align: center;
     padding-top:0;
 }
 .about img{
-    width: 90%;   
+    width: 90%;  
+    height: 100%; 
     margin: auto;
     padding-top:0;
     margin-top: 3rem;
@@ -482,29 +491,30 @@ h2{text-align: center;
     grid-gap: 1rem;
     padding-bottom: 0;}
 
-    .attserv{
+    .attserv{margin-top: 1rem;
         width: 50%;}
  .equipe{
-    grid-template-columns: 1fr 1fr 1fr;
-     grid-gap: 1rem;
+    grid-template-columns: 1fr ;
+     grid-gap: 3rem;
      width: 90%;
      padding-bottom: 0;}
     
      .textEquipe img{border: solid .3rem #082431;
-        width: 10rem;
+        width: 16rem;
         border-radius: 20rem;
     }
  
     .textEquipe h3{font-weight: bold;
-     font-size: 1.5rem;
+     font-size: 2.5rem;
          color: #082431;
      }
      .textEquipe p{font-weight: 600;
-     font-size: 1rem;
+     font-size: 1.5rem;
      color: #4e4f50;
      padding-top: 1rem;
      
      }
+
      .infos{padding: 1rem}
      .att1{
          width: 65%;
@@ -513,13 +523,20 @@ h2{text-align: center;
      .footer-rental,
      .footer-contact,
      .footer-social {
-     
+      
        font-size: 1rem;
        
      }
-     
-  .footer-links h4 {font-size: 1rem;
+   .footer-links{width: 90%;
+     font-size: 1rem;
     margin-bottom: 1rem;
+   margin-left: 0;
+    
+   }  
+  .footer-links h4 {font-size: 1.3rem;
+    
+   
+   
   }
   .social-icons i {
       font-size: 2rem;
